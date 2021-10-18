@@ -1,0 +1,36 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 468.939
+margin_top = 210.755
+margin_right = 801.939
+margin_bottom = 307.755
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "You Win"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 518.578
+margin_top = 257.044
+margin_right = 530.578
+margin_bottom = 277.044
+text = "Retry"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 527.557
+margin_top = 291.84
+margin_right = 567.557
+margin_bottom = 311.84
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
