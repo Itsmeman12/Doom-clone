@@ -6,7 +6,7 @@ export (bool) var use_raycast = false
 
 # How much damage each bullet option does
 const TURRET_DAMAGE_BULLET = 20
-const TURRET_DAMAGE_RAYCAST = 5
+const TURRET_DAMAGE_RAYCAST = 10
 
 # The amount of time (in seconds) the flash meshes are visible
 const FLASH_TIME = 0.1
@@ -25,11 +25,11 @@ var node_flash_one = null
 var node_flash_two = null
 
 # The amount of ammo currently in the turret
-var ammo_in_turret = 20
+var ammo_in_turret = 100
 # The amount of ammo in a full turret
-const AMMO_IN_FULL_TURRET = 20
+const AMMO_IN_FULL_TURRET = 100
 # The amount of time (in seconds) it takes for the turret to reload
-const AMMO_RELOAD_TIME = 4
+const AMMO_RELOAD_TIME = 1
 # A variable for tracking how long it has been since we started reloading
 var ammo_reload_timer = 0
 
@@ -48,9 +48,9 @@ const PLAYER_HEIGHT = 3
 var smoke_particles
 
 # The amount of health the turret currently has
-var turret_health = 60
+var turret_health = 50
 # The amount of health a fully healed turret has
-const MAX_TURRET_HEALTH = 60
+const MAX_TURRET_HEALTH = 50
 
 # The amount of time (in seconds) it takes for a destroyed turret to repair itself
 const DESTROYED_TIME = 20
