@@ -8,7 +8,7 @@ var vel = Vector3()
 const MAX_SPEED = 100
 const JUMP_SPEED = 50
 const ACCEL= 10
-
+#The code for walking works as intendid with the player going as the set speed when pressing the walk forward key and it doest need to be inporved due to it having any issues with it not working.
 # A vector for storing the direction the player intends to move towards.
 var dir = Vector3()
 

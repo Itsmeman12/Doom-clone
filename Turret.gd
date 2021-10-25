@@ -7,7 +7,7 @@ export (bool) var use_raycast = false
 # How much damage each bullet option does
 const TURRET_DAMAGE_BULLET = 20
 const TURRET_DAMAGE_RAYCAST = 10
-
+#The turret code works with the increased damage and health changes when they were change. The code has no issues with the turrent not working or not taking damage when hit or not damaging the player.
 # The amount of time (in seconds) the flash meshes are visible
 const FLASH_TIME = 0.1
 # A variable for tracking how long the flash meshes have been visible
