@@ -4,7 +4,7 @@ extends StaticBody
 const TARGET_HEALTH = 40
 # The amount of health the target currently has
 var current_health = 40
-#the target health works with the health increase needing to take more shots to destroy it with the players gun and taking longer with the health change. The code for the health variable for the target has no issues with the target no losing ehalth when hit by the players bullet.
+#Code Analysis - The target health works with the health increase needing to take more shots to destroy it with the players gun and taking longer with the health change. The code for the health variable for the target has no issues with the target no losing ehalth when hit by the players bullet.
 # A node for holding the broken target scene.
 # We use this to easily add/remove the broken target scene
 var broken_target_holder
